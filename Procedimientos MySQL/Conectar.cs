@@ -65,7 +65,7 @@ namespace Procedimientos_MySQL
                 }
                 else
                 {
-                    MessageBox.Show("Parametros incorrectos, no hay una conexión establecida", "Parametros Incorrectos", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                    MessageBox.Show("Parametros incorrectos, no hay una conexión establecida", "Parametros Incorrectos", MessageBoxButtons.RetryCancel, MessageBoxIcon.Exclamation);
 
                 }
             }

@@ -29,17 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
+            BunifuAnimatorNS.Animation animation4 = new BunifuAnimatorNS.Animation();
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Matematicas", 2, 2);
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Tiempo", 2, 2);
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Cadena", 2, 2);
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Incriptado", 2, 2);
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Información", 2, 2);
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Group by", 2, 2);
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Manipulación de datos", 2, 2);
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Definición de datos", 2, 2);
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Transacción ");
+            BunifuAnimatorNS.Animation animation3 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(containt));
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Matematicas", 2, 2);
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Tiempo", 2, 2);
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Cadena", 2, 2);
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Incriptado", 2, 2);
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Información", 2, 2);
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Group by", 2, 2);
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Manipulación de datos", 2, 2);
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Definición de datos", 2, 2);
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.menu = new System.Windows.Forms.Panel();
             this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -60,38 +61,53 @@
             this.panelAnim = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
             this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.lblcampo = new System.Windows.Forms.Label();
-            this.lbltd = new System.Windows.Forms.Label();
-            this.lbltabla = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.lblResultados = new System.Windows.Forms.Label();
-            this.tabpagSQL = new System.Windows.Forms.TabControl();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.txtSQL = new FastColoredTextBoxNS.FastColoredTextBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.splitwork = new System.Windows.Forms.SplitContainer();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.trFunciones = new System.Windows.Forms.TreeView();
             this.icons = new System.Windows.Forms.ImageList(this.components);
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.trvSintaxis = new System.Windows.Forms.TreeView();
+            this.tabpagSQL = new System.Windows.Forms.TabControl();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.dtgResultados = new System.Windows.Forms.DataGridView();
+            this.lblResultados = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.lbltabla = new System.Windows.Forms.Label();
+            this.lblcampo = new System.Windows.Forms.Label();
+            this.lbltd = new System.Windows.Forms.Label();
+            this.lblsubtitulo = new System.Windows.Forms.Label();
+            this.trvvarios = new System.Windows.Forms.TreeView();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.toolSQL = new System.Windows.Forms.ToolStrip();
+            this.tltNuevo = new System.Windows.Forms.ToolStripButton();
+            this.toolOpenSQL = new System.Windows.Forms.ToolStripButton();
+            this.toolSaveSql = new System.Windows.Forms.ToolStripButton();
+            this.toolSaveAsSql = new System.Windows.Forms.ToolStripButton();
+            this.toolPrintSql = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolCopy = new System.Windows.Forms.ToolStripButton();
+            this.toolCut = new System.Windows.Forms.ToolStripButton();
+            this.toolPaste = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolPlay = new System.Windows.Forms.ToolStripButton();
+            this.toolProBar = new System.Windows.Forms.ToolStripProgressBar();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.AboutLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.FilenameToolStripLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.LineToolStripLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.ColumnToolStripLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.logoAnim = new BunifuAnimatorNS.BunifuTransition(this.components);
             this.tlpFunciones = new System.Windows.Forms.ToolTip(this.components);
-            this.trvvarios = new System.Windows.Forms.TreeView();
-            this.lblsubtitulo = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.menu.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnmenu)).BeginInit();
@@ -103,16 +119,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton3)).BeginInit();
             this.panel4.SuspendLayout();
             this.bunifuGradientPanel1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.tabpagSQL.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.txtSQL)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.toolStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitwork)).BeginInit();
+            this.splitwork.Panel1.SuspendLayout();
+            this.splitwork.Panel2.SuspendLayout();
+            this.splitwork.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgResultados)).BeginInit();
+            this.panel5.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.toolSQL.SuspendLayout();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // bunifuElipse1
@@ -210,6 +230,7 @@
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.White;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton3_Click);
             // 
             // bunifuFlatButton2
             // 
@@ -459,22 +480,22 @@
             // 
             this.panelAnim.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
             this.panelAnim.Cursor = null;
-            animation1.AnimateOnlyDifferences = true;
-            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
-            animation1.LeafCoeff = 0F;
-            animation1.MaxTime = 1F;
-            animation1.MinTime = 0F;
-            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
-            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
-            animation1.MosaicSize = 0;
-            animation1.Padding = new System.Windows.Forms.Padding(0);
-            animation1.RotateCoeff = 0F;
-            animation1.RotateLimit = 0F;
-            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
-            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
-            animation1.TimeCoeff = 0F;
-            animation1.TransparencyCoeff = 0F;
-            this.panelAnim.DefaultAnimation = animation1;
+            animation4.AnimateOnlyDifferences = true;
+            animation4.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.BlindCoeff")));
+            animation4.LeafCoeff = 0F;
+            animation4.MaxTime = 1F;
+            animation4.MinTime = 0F;
+            animation4.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicCoeff")));
+            animation4.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation4.MosaicShift")));
+            animation4.MosaicSize = 0;
+            animation4.Padding = new System.Windows.Forms.Padding(0);
+            animation4.RotateCoeff = 0F;
+            animation4.RotateLimit = 0F;
+            animation4.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.ScaleCoeff")));
+            animation4.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation4.SlideCoeff")));
+            animation4.TimeCoeff = 0F;
+            animation4.TransparencyCoeff = 0F;
+            this.panelAnim.DefaultAnimation = animation4;
             // 
             // panel4
             // 
@@ -492,13 +513,11 @@
             this.bunifuGradientPanel1.BackColor = System.Drawing.Color.White;
             this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
             this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Controls.Add(this.splitwork);
+            this.bunifuGradientPanel1.Controls.Add(this.panel5);
             this.bunifuGradientPanel1.Controls.Add(this.lblsubtitulo);
             this.bunifuGradientPanel1.Controls.Add(this.trvvarios);
-            this.bunifuGradientPanel1.Controls.Add(this.flowLayoutPanel1);
-            this.bunifuGradientPanel1.Controls.Add(this.panel3);
-            this.bunifuGradientPanel1.Controls.Add(this.tabpagSQL);
             this.bunifuGradientPanel1.Controls.Add(this.panel1);
-            this.bunifuGradientPanel1.Controls.Add(this.tabControl1);
             this.panelAnim.SetDecoration(this.bunifuGradientPanel1, BunifuAnimatorNS.DecorationType.None);
             this.logoAnim.SetDecoration(this.bunifuGradientPanel1, BunifuAnimatorNS.DecorationType.None);
             this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -513,265 +532,32 @@
             this.bunifuGradientPanel1.TabIndex = 1;
             this.bunifuGradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.bunifuGradientPanel1_Paint);
             // 
-            // flowLayoutPanel1
+            // splitwork
             // 
-            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.lblcampo);
-            this.flowLayoutPanel1.Controls.Add(this.lbltd);
-            this.flowLayoutPanel1.Controls.Add(this.lbltabla);
-            this.logoAnim.SetDecoration(this.flowLayoutPanel1, BunifuAnimatorNS.DecorationType.None);
-            this.panelAnim.SetDecoration(this.flowLayoutPanel1, BunifuAnimatorNS.DecorationType.None);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(56, 413);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(196, 160);
-            this.flowLayoutPanel1.TabIndex = 17;
-            // 
-            // lblcampo
-            // 
-            this.lblcampo.AutoSize = true;
-            this.logoAnim.SetDecoration(this.lblcampo, BunifuAnimatorNS.DecorationType.None);
-            this.panelAnim.SetDecoration(this.lblcampo, BunifuAnimatorNS.DecorationType.None);
-            this.lblcampo.Location = new System.Drawing.Point(4, 0);
-            this.lblcampo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblcampo.Name = "lblcampo";
-            this.lblcampo.Size = new System.Drawing.Size(0, 13);
-            this.lblcampo.TabIndex = 0;
-            // 
-            // lbltd
-            // 
-            this.lbltd.AutoSize = true;
-            this.logoAnim.SetDecoration(this.lbltd, BunifuAnimatorNS.DecorationType.None);
-            this.panelAnim.SetDecoration(this.lbltd, BunifuAnimatorNS.DecorationType.None);
-            this.lbltd.Location = new System.Drawing.Point(12, 0);
-            this.lbltd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbltd.Name = "lbltd";
-            this.lbltd.Size = new System.Drawing.Size(0, 13);
-            this.lbltd.TabIndex = 2;
-            // 
-            // lbltabla
-            // 
-            this.lbltabla.AutoSize = true;
-            this.logoAnim.SetDecoration(this.lbltabla, BunifuAnimatorNS.DecorationType.None);
-            this.panelAnim.SetDecoration(this.lbltabla, BunifuAnimatorNS.DecorationType.None);
-            this.lbltabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbltabla.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lbltabla.Location = new System.Drawing.Point(20, 0);
-            this.lbltabla.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lbltabla.Name = "lbltabla";
-            this.lbltabla.Size = new System.Drawing.Size(11, 15);
-            this.lbltabla.TabIndex = 17;
-            this.lbltabla.Text = " ";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.lblResultados);
-            this.panelAnim.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnim.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
-            this.panel3.Location = new System.Drawing.Point(259, 521);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(729, 53);
-            this.panel3.TabIndex = 8;
-            // 
-            // lblResultados
-            // 
-            this.lblResultados.AutoSize = true;
-            this.logoAnim.SetDecoration(this.lblResultados, BunifuAnimatorNS.DecorationType.None);
-            this.panelAnim.SetDecoration(this.lblResultados, BunifuAnimatorNS.DecorationType.None);
-            this.lblResultados.Location = new System.Drawing.Point(3, 9);
-            this.lblResultados.Name = "lblResultados";
-            this.lblResultados.Size = new System.Drawing.Size(60, 13);
-            this.lblResultados.TabIndex = 0;
-            this.lblResultados.Text = "Resultados";
-            // 
-            // tabpagSQL
-            // 
-            this.tabpagSQL.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.splitwork.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabpagSQL.Controls.Add(this.tabPage3);
-            this.panelAnim.SetDecoration(this.tabpagSQL, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnim.SetDecoration(this.tabpagSQL, BunifuAnimatorNS.DecorationType.None);
-            this.tabpagSQL.Location = new System.Drawing.Point(259, 63);
-            this.tabpagSQL.Name = "tabpagSQL";
-            this.tabpagSQL.SelectedIndex = 0;
-            this.tabpagSQL.Size = new System.Drawing.Size(557, 449);
-            this.tabpagSQL.TabIndex = 7;
+            this.logoAnim.SetDecoration(this.splitwork, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.splitwork, BunifuAnimatorNS.DecorationType.None);
+            this.splitwork.Location = new System.Drawing.Point(256, 63);
+            this.splitwork.Name = "splitwork";
+            this.splitwork.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
-            // tabPage3
+            // splitwork.Panel1
             // 
-            this.tabPage3.Controls.Add(this.txtSQL);
-            this.logoAnim.SetDecoration(this.tabPage3, BunifuAnimatorNS.DecorationType.None);
-            this.panelAnim.SetDecoration(this.tabPage3, BunifuAnimatorNS.DecorationType.None);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(549, 423);
-            this.tabPage3.TabIndex = 0;
-            this.tabPage3.Text = "unTitle";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.splitwork.Panel1.Controls.Add(this.tabControl1);
+            this.splitwork.Panel1.Controls.Add(this.tabpagSQL);
+            this.logoAnim.SetDecoration(this.splitwork.Panel1, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.splitwork.Panel1, BunifuAnimatorNS.DecorationType.None);
             // 
-            // txtSQL
+            // splitwork.Panel2
             // 
-            this.txtSQL.AutoCompleteBracketsList = new char[] {
-        '(',
-        ')',
-        '{',
-        '}',
-        '[',
-        ']',
-        '\"',
-        '\"',
-        '\'',
-        '\''};
-            this.txtSQL.AutoIndentCharsPatterns = "";
-            this.txtSQL.AutoScrollMinSize = new System.Drawing.Size(379, 70);
-            this.txtSQL.BackBrush = null;
-            this.txtSQL.CharHeight = 14;
-            this.txtSQL.CharWidth = 8;
-            this.txtSQL.CommentPrefix = "--";
-            this.txtSQL.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.logoAnim.SetDecoration(this.txtSQL, BunifuAnimatorNS.DecorationType.None);
-            this.panelAnim.SetDecoration(this.txtSQL, BunifuAnimatorNS.DecorationType.None);
-            this.txtSQL.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
-            this.txtSQL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtSQL.Font = new System.Drawing.Font("Courier New", 9.75F);
-            this.txtSQL.IsReplaceMode = false;
-            this.txtSQL.Language = FastColoredTextBoxNS.Language.SQL;
-            this.txtSQL.LeftBracket = '(';
-            this.txtSQL.Location = new System.Drawing.Point(3, 3);
-            this.txtSQL.Name = "txtSQL";
-            this.txtSQL.Paddings = new System.Windows.Forms.Padding(0);
-            this.txtSQL.RightBracket = ')';
-            this.txtSQL.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.txtSQL.Size = new System.Drawing.Size(543, 417);
-            this.txtSQL.TabIndex = 0;
-            this.txtSQL.Text = "CREATE PROCEDURE simpleproc (OUT param1 INT)\r\n    BEGIN\r\n    SELECT COUNT(*) INTO" +
-    " param1 FROM t;\r\n    END;\r\n";
-            this.txtSQL.Zoom = 100;
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
-            this.panel1.Controls.Add(this.toolStrip1);
-            this.panelAnim.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnim.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
-            this.panel1.Location = new System.Drawing.Point(259, 35);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(730, 28);
-            this.panel1.TabIndex = 6;
-            // 
-            // toolStrip1
-            // 
-            this.logoAnim.SetDecoration(this.toolStrip1, BunifuAnimatorNS.DecorationType.None);
-            this.panelAnim.SetDecoration(this.toolStrip1, BunifuAnimatorNS.DecorationType.None);
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripButton1,
-            this.toolStripButton2,
-            this.toolStripButton3,
-            this.toolStripButton4,
-            this.toolStripSeparator1,
-            this.toolStripButton5,
-            this.toolStripButton6,
-            this.toolStripButton7,
-            this.toolStripSeparator2,
-            this.toolStripButton8,
-            this.toolStripProgressBar1});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-            this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(730, 25);
-            this.toolStrip1.TabIndex = 0;
-            this.toolStrip1.Text = "toolStrip1";
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "toolStripButton1";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton2.Text = "toolStripButton2";
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton3.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton3.Image")));
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton3.Text = "toolStripButton3";
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton4.Text = "toolStripButton4";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripButton5
-            // 
-            this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton5.Text = "toolStripButton5";
-            // 
-            // toolStripButton6
-            // 
-            this.toolStripButton6.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton6.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton6.Image")));
-            this.toolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton6.Name = "toolStripButton6";
-            this.toolStripButton6.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton6.Text = "toolStripButton6";
-            // 
-            // toolStripButton7
-            // 
-            this.toolStripButton7.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton7.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton7.Image")));
-            this.toolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton7.Name = "toolStripButton7";
-            this.toolStripButton7.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton7.Text = "toolStripButton7";
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // toolStripButton8
-            // 
-            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
-            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton8.Text = "toolStripButton8";
-            // 
-            // toolStripProgressBar1
-            // 
-            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 22);
+            this.splitwork.Panel2.Controls.Add(this.panel3);
+            this.logoAnim.SetDecoration(this.splitwork.Panel2, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.splitwork.Panel2, BunifuAnimatorNS.DecorationType.None);
+            this.splitwork.Size = new System.Drawing.Size(728, 489);
+            this.splitwork.SplitterDistance = 403;
+            this.splitwork.TabIndex = 21;
             // 
             // tabControl1
             // 
@@ -781,10 +567,10 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.panelAnim.SetDecoration(this.tabControl1, BunifuAnimatorNS.DecorationType.None);
             this.logoAnim.SetDecoration(this.tabControl1, BunifuAnimatorNS.DecorationType.None);
-            this.tabControl1.Location = new System.Drawing.Point(822, 69);
+            this.tabControl1.Location = new System.Drawing.Point(537, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(166, 446);
+            this.tabControl1.Size = new System.Drawing.Size(188, 397);
             this.tabControl1.TabIndex = 5;
             // 
             // tabPage1
@@ -795,7 +581,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(158, 420);
+            this.tabPage1.Size = new System.Drawing.Size(180, 371);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Funciones MySQL";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -809,48 +595,50 @@
             this.trFunciones.ImageList = this.icons;
             this.trFunciones.Location = new System.Drawing.Point(3, 3);
             this.trFunciones.Name = "trFunciones";
-            treeNode1.ImageIndex = 2;
-            treeNode1.Name = "mt";
-            treeNode1.SelectedImageIndex = 2;
-            treeNode1.Text = "Matematicas";
-            treeNode1.ToolTipText = "Contiene todas las funciones matemáticas de MySQL.";
-            treeNode2.ImageIndex = 2;
-            treeNode2.Name = "tp";
-            treeNode2.SelectedImageIndex = 2;
-            treeNode2.Text = "Tiempo";
-            treeNode2.ToolTipText = "Contiene todas las funciones que facilitan el manejo de fechas y horas de MySQL.";
-            treeNode3.ImageIndex = 2;
-            treeNode3.Name = "cd";
-            treeNode3.SelectedImageIndex = 2;
-            treeNode3.Text = "Cadena";
-            treeNode3.ToolTipText = "Contiene todas las funciones que facilitan el manejo de cadenas de caracteres en " +
+            treeNode10.ImageIndex = 2;
+            treeNode10.Name = "mt";
+            treeNode10.SelectedImageIndex = 2;
+            treeNode10.Text = "Matematicas";
+            treeNode10.ToolTipText = "Contiene todas las funciones matemáticas de MySQL.";
+            treeNode11.ImageIndex = 2;
+            treeNode11.Name = "tp";
+            treeNode11.SelectedImageIndex = 2;
+            treeNode11.Text = "Tiempo";
+            treeNode11.ToolTipText = "Contiene todas las funciones que facilitan el manejo de fechas y horas de MySQL.";
+            treeNode12.ImageIndex = 2;
+            treeNode12.Name = "cd";
+            treeNode12.SelectedImageIndex = 2;
+            treeNode12.Text = "Cadena";
+            treeNode12.ToolTipText = "Contiene todas las funciones que facilitan el manejo de cadenas de caracteres en " +
     "MySQL.\t";
-            treeNode4.ImageIndex = 2;
-            treeNode4.Name = "inp";
-            treeNode4.SelectedImageIndex = 2;
-            treeNode4.Text = "Incriptado";
-            treeNode4.ToolTipText = "Contiene funciones que facilitan el manejo de encriptación y des-encriptación  en" +
+            treeNode13.ImageIndex = 2;
+            treeNode13.Name = "inp";
+            treeNode13.SelectedImageIndex = 2;
+            treeNode13.Text = "Incriptado";
+            treeNode13.ToolTipText = "Contiene funciones que facilitan el manejo de encriptación y des-encriptación  en" +
     " MySQL.";
-            treeNode5.ImageIndex = 2;
-            treeNode5.Name = "info";
-            treeNode5.SelectedImageIndex = 2;
-            treeNode5.Text = "Información";
-            treeNode5.ToolTipText = "Contiene funciones que retornan información importante sobre MySQL.\t";
-            treeNode6.ImageIndex = 2;
-            treeNode6.Name = "grp";
-            treeNode6.SelectedImageIndex = 2;
-            treeNode6.Text = "Group by";
-            treeNode6.ToolTipText = "Contiene funciones que retornar valores calculados de un grupo de registros.";
+            treeNode14.ImageIndex = 2;
+            treeNode14.Name = "info";
+            treeNode14.SelectedImageIndex = 2;
+            treeNode14.Text = "Información";
+            treeNode14.ToolTipText = "Contiene funciones que retornan información importante sobre MySQL.\t";
+            treeNode15.ImageIndex = 2;
+            treeNode15.Name = "grp";
+            treeNode15.SelectedImageIndex = 2;
+            treeNode15.Text = "Group by";
+            treeNode15.ToolTipText = "Contiene funciones que retornar valores calculados de un grupo de registros.";
             this.trFunciones.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5,
-            treeNode6});
+            treeNode10,
+            treeNode11,
+            treeNode12,
+            treeNode13,
+            treeNode14,
+            treeNode15});
             this.trFunciones.SelectedImageIndex = 0;
-            this.trFunciones.Size = new System.Drawing.Size(152, 414);
+            this.trFunciones.Size = new System.Drawing.Size(174, 365);
             this.trFunciones.TabIndex = 1;
+            this.trFunciones.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trFunciones_AfterSelect);
+            this.trFunciones.DoubleClick += new System.EventHandler(this.trFunciones_DoubleClick);
             // 
             // icons
             // 
@@ -866,72 +654,166 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.treeView1);
+            this.tabPage2.Controls.Add(this.trvSintaxis);
             this.logoAnim.SetDecoration(this.tabPage2, BunifuAnimatorNS.DecorationType.None);
             this.panelAnim.SetDecoration(this.tabPage2, BunifuAnimatorNS.DecorationType.None);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(158, 420);
+            this.tabPage2.Size = new System.Drawing.Size(180, 371);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Sintaxis";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // treeView1
+            // trvSintaxis
             // 
-            this.panelAnim.SetDecoration(this.treeView1, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnim.SetDecoration(this.treeView1, BunifuAnimatorNS.DecorationType.None);
-            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.treeView1.ImageKey = "closed-folder-yellow.png";
-            this.treeView1.ImageList = this.icons;
-            this.treeView1.Location = new System.Drawing.Point(3, 3);
-            this.treeView1.Name = "treeView1";
-            treeNode7.ImageIndex = 2;
-            treeNode7.Name = "dml";
-            treeNode7.SelectedImageIndex = 2;
-            treeNode7.Text = "Manipulación de datos";
-            treeNode7.ToolTipText = "Sintaxis para manipulacion de datos.";
-            treeNode8.ImageIndex = 2;
-            treeNode8.Name = "ddl";
-            treeNode8.SelectedImageIndex = 2;
-            treeNode8.Text = "Definición de datos";
-            treeNode8.ToolTipText = "Contiene las funciones soportadas dentro de un Store Procedure.";
-            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8});
-            this.treeView1.SelectedImageIndex = 0;
-            this.treeView1.Size = new System.Drawing.Size(152, 414);
-            this.treeView1.TabIndex = 2;
+            this.panelAnim.SetDecoration(this.trvSintaxis, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnim.SetDecoration(this.trvSintaxis, BunifuAnimatorNS.DecorationType.None);
+            this.trvSintaxis.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.trvSintaxis.ImageKey = "closed-folder-yellow.png";
+            this.trvSintaxis.ImageList = this.icons;
+            this.trvSintaxis.Location = new System.Drawing.Point(3, 3);
+            this.trvSintaxis.Name = "trvSintaxis";
+            treeNode1.ImageIndex = 2;
+            treeNode1.Name = "dml";
+            treeNode1.SelectedImageIndex = 2;
+            treeNode1.Text = "Manipulación de datos";
+            treeNode1.ToolTipText = "Sintaxis para manipulacion de datos.";
+            treeNode2.ImageIndex = 2;
+            treeNode2.Name = "ddl";
+            treeNode2.SelectedImageIndex = 2;
+            treeNode2.Text = "Definición de datos";
+            treeNode2.ToolTipText = "Contiene las funciones soportadas dentro de un Store Procedure.";
+            treeNode3.ImageIndex = 2;
+            treeNode3.Name = "trans";
+            treeNode3.SelectedImageKey = "closed-folder-yellow.png";
+            treeNode3.Text = "Transacción ";
+            treeNode3.ToolTipText = "Contiene funciones necesarias para el manejo de transacciones en MySQL.";
+            this.trvSintaxis.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3});
+            this.trvSintaxis.SelectedImageIndex = 0;
+            this.trvSintaxis.Size = new System.Drawing.Size(174, 365);
+            this.trvSintaxis.TabIndex = 2;
+            this.trvSintaxis.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trvSintaxis_AfterSelect);
             // 
-            // logoAnim
+            // tabpagSQL
             // 
-            this.logoAnim.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
-            this.logoAnim.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.logoAnim.DefaultAnimation = animation2;
+            this.tabpagSQL.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelAnim.SetDecoration(this.tabpagSQL, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnim.SetDecoration(this.tabpagSQL, BunifuAnimatorNS.DecorationType.None);
+            this.tabpagSQL.Location = new System.Drawing.Point(3, 0);
+            this.tabpagSQL.Name = "tabpagSQL";
+            this.tabpagSQL.SelectedIndex = 0;
+            this.tabpagSQL.Size = new System.Drawing.Size(532, 400);
+            this.tabpagSQL.TabIndex = 7;
+            this.tabpagSQL.SelectedIndexChanged += new System.EventHandler(this.myTabControlZ_SelectedIndexChanged);
             // 
-            // trvvarios
+            // panel3
             // 
-            this.panelAnim.SetDecoration(this.trvvarios, BunifuAnimatorNS.DecorationType.None);
-            this.logoAnim.SetDecoration(this.trvvarios, BunifuAnimatorNS.DecorationType.None);
-            this.trvvarios.Location = new System.Drawing.Point(56, 63);
-            this.trvvarios.Name = "trvvarios";
-            this.trvvarios.Size = new System.Drawing.Size(196, 343);
-            this.trvvarios.TabIndex = 18;
+            this.panel3.Controls.Add(this.dtgResultados);
+            this.panel3.Controls.Add(this.lblResultados);
+            this.panelAnim.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnim.SetDecoration(this.panel3, BunifuAnimatorNS.DecorationType.None);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(728, 82);
+            this.panel3.TabIndex = 8;
+            // 
+            // dtgResultados
+            // 
+            this.dtgResultados.AllowUserToAddRows = false;
+            this.dtgResultados.AllowUserToDeleteRows = false;
+            this.dtgResultados.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dtgResultados.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dtgResultados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.logoAnim.SetDecoration(this.dtgResultados, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.dtgResultados, BunifuAnimatorNS.DecorationType.None);
+            this.dtgResultados.Location = new System.Drawing.Point(3, 16);
+            this.dtgResultados.Name = "dtgResultados";
+            this.dtgResultados.ReadOnly = true;
+            this.dtgResultados.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.dtgResultados.Size = new System.Drawing.Size(722, 63);
+            this.dtgResultados.TabIndex = 1;
+            // 
+            // lblResultados
+            // 
+            this.lblResultados.AutoSize = true;
+            this.logoAnim.SetDecoration(this.lblResultados, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.lblResultados, BunifuAnimatorNS.DecorationType.None);
+            this.lblResultados.Location = new System.Drawing.Point(3, 0);
+            this.lblResultados.Name = "lblResultados";
+            this.lblResultados.Size = new System.Drawing.Size(60, 13);
+            this.lblResultados.TabIndex = 0;
+            this.lblResultados.Text = "Resultados";
+            // 
+            // panel5
+            // 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel5.Controls.Add(this.flowLayoutPanel1);
+            this.panelAnim.SetDecoration(this.panel5, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnim.SetDecoration(this.panel5, BunifuAnimatorNS.DecorationType.None);
+            this.panel5.Location = new System.Drawing.Point(56, 413);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(194, 139);
+            this.panel5.TabIndex = 20;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.lbltabla);
+            this.flowLayoutPanel1.Controls.Add(this.lblcampo);
+            this.flowLayoutPanel1.Controls.Add(this.lbltd);
+            this.logoAnim.SetDecoration(this.flowLayoutPanel1, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.flowLayoutPanel1, BunifuAnimatorNS.DecorationType.None);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(194, 139);
+            this.flowLayoutPanel1.TabIndex = 17;
+            // 
+            // lbltabla
+            // 
+            this.lbltabla.AutoSize = true;
+            this.logoAnim.SetDecoration(this.lbltabla, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.lbltabla, BunifuAnimatorNS.DecorationType.None);
+            this.lbltabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbltabla.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lbltabla.Location = new System.Drawing.Point(4, 0);
+            this.lbltabla.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbltabla.Name = "lbltabla";
+            this.lbltabla.Size = new System.Drawing.Size(0, 15);
+            this.lbltabla.TabIndex = 17;
+            // 
+            // lblcampo
+            // 
+            this.lblcampo.AutoSize = true;
+            this.logoAnim.SetDecoration(this.lblcampo, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.lblcampo, BunifuAnimatorNS.DecorationType.None);
+            this.lblcampo.Location = new System.Drawing.Point(12, 0);
+            this.lblcampo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblcampo.Name = "lblcampo";
+            this.lblcampo.Size = new System.Drawing.Size(0, 13);
+            this.lblcampo.TabIndex = 0;
+            // 
+            // lbltd
+            // 
+            this.lbltd.AutoSize = true;
+            this.logoAnim.SetDecoration(this.lbltd, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.lbltd, BunifuAnimatorNS.DecorationType.None);
+            this.lbltd.Location = new System.Drawing.Point(20, 0);
+            this.lbltd.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbltd.Name = "lbltd";
+            this.lbltd.Size = new System.Drawing.Size(0, 13);
+            this.lbltd.TabIndex = 2;
             // 
             // lblsubtitulo
             // 
@@ -945,12 +827,280 @@
             this.lblsubtitulo.TabIndex = 19;
             this.lblsubtitulo.Text = ":";
             // 
+            // trvvarios
+            // 
+            this.panelAnim.SetDecoration(this.trvvarios, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnim.SetDecoration(this.trvvarios, BunifuAnimatorNS.DecorationType.None);
+            this.trvvarios.Location = new System.Drawing.Point(56, 63);
+            this.trvvarios.Name = "trvvarios";
+            this.trvvarios.Size = new System.Drawing.Size(196, 343);
+            this.trvvarios.TabIndex = 18;
+            this.trvvarios.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.trvvarios_AfterSelect);
+            this.trvvarios.DoubleClick += new System.EventHandler(this.trvvarios_DoubleClick);
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(207)))), ((int)(((byte)(214)))), ((int)(((byte)(229)))));
+            this.panel1.Controls.Add(this.toolSQL);
+            this.panelAnim.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnim.SetDecoration(this.panel1, BunifuAnimatorNS.DecorationType.None);
+            this.panel1.Location = new System.Drawing.Point(259, 35);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(730, 28);
+            this.panel1.TabIndex = 6;
+            // 
+            // toolSQL
+            // 
+            this.logoAnim.SetDecoration(this.toolSQL, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.toolSQL, BunifuAnimatorNS.DecorationType.None);
+            this.toolSQL.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tltNuevo,
+            this.toolOpenSQL,
+            this.toolSaveSql,
+            this.toolSaveAsSql,
+            this.toolPrintSql,
+            this.toolStripSeparator1,
+            this.toolCopy,
+            this.toolCut,
+            this.toolPaste,
+            this.toolStripSeparator2,
+            this.toolPlay,
+            this.toolProBar});
+            this.toolSQL.Location = new System.Drawing.Point(0, 0);
+            this.toolSQL.Name = "toolSQL";
+            this.toolSQL.Size = new System.Drawing.Size(730, 25);
+            this.toolSQL.TabIndex = 0;
+            this.toolSQL.Text = "toolStrip1";
+            // 
+            // tltNuevo
+            // 
+            this.tltNuevo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tltNuevo.Image = ((System.Drawing.Image)(resources.GetObject("tltNuevo.Image")));
+            this.tltNuevo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tltNuevo.Name = "tltNuevo";
+            this.tltNuevo.Size = new System.Drawing.Size(23, 22);
+            this.tltNuevo.Text = "Nuevo Script SQL";
+            this.tltNuevo.Click += new System.EventHandler(this.tltNuevo_Click);
+            // 
+            // toolOpenSQL
+            // 
+            this.toolOpenSQL.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolOpenSQL.Image = ((System.Drawing.Image)(resources.GetObject("toolOpenSQL.Image")));
+            this.toolOpenSQL.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolOpenSQL.Name = "toolOpenSQL";
+            this.toolOpenSQL.Size = new System.Drawing.Size(23, 22);
+            this.toolOpenSQL.Text = "Abrir un Script";
+            this.toolOpenSQL.Click += new System.EventHandler(this.toolOpenSQL_Click);
+            // 
+            // toolSaveSql
+            // 
+            this.toolSaveSql.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolSaveSql.Image = ((System.Drawing.Image)(resources.GetObject("toolSaveSql.Image")));
+            this.toolSaveSql.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolSaveSql.Name = "toolSaveSql";
+            this.toolSaveSql.Size = new System.Drawing.Size(23, 22);
+            this.toolSaveSql.Text = "Guardar ";
+            this.toolSaveSql.Click += new System.EventHandler(this.toolSaveSql_Click);
+            // 
+            // toolSaveAsSql
+            // 
+            this.toolSaveAsSql.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolSaveAsSql.Image = ((System.Drawing.Image)(resources.GetObject("toolSaveAsSql.Image")));
+            this.toolSaveAsSql.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolSaveAsSql.Name = "toolSaveAsSql";
+            this.toolSaveAsSql.Size = new System.Drawing.Size(23, 22);
+            this.toolSaveAsSql.Text = "Guardar Todos";
+            this.toolSaveAsSql.Click += new System.EventHandler(this.toolSaveAsSql_Click);
+            // 
+            // toolPrintSql
+            // 
+            this.toolPrintSql.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolPrintSql.Image = ((System.Drawing.Image)(resources.GetObject("toolPrintSql.Image")));
+            this.toolPrintSql.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolPrintSql.Name = "toolPrintSql";
+            this.toolPrintSql.Size = new System.Drawing.Size(23, 22);
+            this.toolPrintSql.Text = "Imprimir Script";
+            this.toolPrintSql.Click += new System.EventHandler(this.toolPrintSql_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolCopy
+            // 
+            this.toolCopy.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolCopy.Image = ((System.Drawing.Image)(resources.GetObject("toolCopy.Image")));
+            this.toolCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolCopy.Name = "toolCopy";
+            this.toolCopy.Size = new System.Drawing.Size(23, 22);
+            this.toolCopy.Text = "Copiar";
+            this.toolCopy.Click += new System.EventHandler(this.toolCopy_Click);
+            // 
+            // toolCut
+            // 
+            this.toolCut.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolCut.Image = ((System.Drawing.Image)(resources.GetObject("toolCut.Image")));
+            this.toolCut.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolCut.Name = "toolCut";
+            this.toolCut.Size = new System.Drawing.Size(23, 22);
+            this.toolCut.Text = "Cortar";
+            this.toolCut.Click += new System.EventHandler(this.toolCut_Click);
+            // 
+            // toolPaste
+            // 
+            this.toolPaste.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolPaste.Image = ((System.Drawing.Image)(resources.GetObject("toolPaste.Image")));
+            this.toolPaste.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolPaste.Name = "toolPaste";
+            this.toolPaste.Size = new System.Drawing.Size(23, 22);
+            this.toolPaste.Text = "Pegar";
+            this.toolPaste.Click += new System.EventHandler(this.toolPaste_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolPlay
+            // 
+            this.toolPlay.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolPlay.Image = ((System.Drawing.Image)(resources.GetObject("toolPlay.Image")));
+            this.toolPlay.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolPlay.Name = "toolPlay";
+            this.toolPlay.Size = new System.Drawing.Size(23, 22);
+            this.toolPlay.Text = "Executar Script";
+            this.toolPlay.Click += new System.EventHandler(this.toolPlay_Click);
+            // 
+            // toolProBar
+            // 
+            this.toolProBar.Name = "toolProBar";
+            this.toolProBar.Size = new System.Drawing.Size(100, 22);
+            // 
+            // statusStrip1
+            // 
+            this.statusStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.logoAnim.SetDecoration(this.statusStrip1, BunifuAnimatorNS.DecorationType.None);
+            this.panelAnim.SetDecoration(this.statusStrip1, BunifuAnimatorNS.DecorationType.None);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AboutLabel,
+            this.toolStripStatusLabel2,
+            this.FilenameToolStripLabel,
+            this.toolStripStatusLabel3,
+            this.LineToolStripLabel,
+            this.toolStripStatusLabel4,
+            this.ColumnToolStripLabel});
+            this.statusStrip1.Location = new System.Drawing.Point(50, 555);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(942, 22);
+            this.statusStrip1.TabIndex = 11;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // AboutLabel
+            // 
+            this.AboutLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AboutLabel.ForeColor = System.Drawing.Color.White;
+            this.AboutLabel.Name = "AboutLabel";
+            this.AboutLabel.Size = new System.Drawing.Size(35, 17);
+            this.AboutLabel.Text = "Listo";
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(181, 17);
+            this.toolStripStatusLabel2.Text = "                                                          ";
+            // 
+            // FilenameToolStripLabel
+            // 
+            this.FilenameToolStripLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FilenameToolStripLabel.ForeColor = System.Drawing.Color.White;
+            this.FilenameToolStripLabel.Name = "FilenameToolStripLabel";
+            this.FilenameToolStripLabel.Size = new System.Drawing.Size(243, 17);
+            this.FilenameToolStripLabel.Text = "Procedimientos Almacenados en MySQL";
+            // 
+            // toolStripStatusLabel3
+            // 
+            this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(265, 17);
+            this.toolStripStatusLabel3.Text = "                                                                                 " +
+    "     ";
+            // 
+            // LineToolStripLabel
+            // 
+            this.LineToolStripLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LineToolStripLabel.ForeColor = System.Drawing.Color.White;
+            this.LineToolStripLabel.Name = "LineToolStripLabel";
+            this.LineToolStripLabel.Size = new System.Drawing.Size(42, 17);
+            this.LineToolStripLabel.Text = "Lin : 1";
+            // 
+            // toolStripStatusLabel4
+            // 
+            this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(46, 17);
+            this.toolStripStatusLabel4.Text = "             ";
+            // 
+            // ColumnToolStripLabel
+            // 
+            this.ColumnToolStripLabel.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ColumnToolStripLabel.ForeColor = System.Drawing.Color.White;
+            this.ColumnToolStripLabel.Name = "ColumnToolStripLabel";
+            this.ColumnToolStripLabel.Size = new System.Drawing.Size(45, 17);
+            this.ColumnToolStripLabel.Text = "Col : 1";
+            // 
+            // printPreviewDialog1
+            // 
+            this.printPreviewDialog1.AutoScrollMargin = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.printPreviewDialog1.ClientSize = new System.Drawing.Size(400, 300);
+            this.panelAnim.SetDecoration(this.printPreviewDialog1, BunifuAnimatorNS.DecorationType.None);
+            this.logoAnim.SetDecoration(this.printPreviewDialog1, BunifuAnimatorNS.DecorationType.None);
+            this.printPreviewDialog1.Enabled = true;
+            this.printPreviewDialog1.Icon = ((System.Drawing.Icon)(resources.GetObject("printPreviewDialog1.Icon")));
+            this.printPreviewDialog1.Name = "printPreviewDialog1";
+            this.printPreviewDialog1.Visible = false;
+            // 
+            // logoAnim
+            // 
+            this.logoAnim.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide;
+            this.logoAnim.Cursor = null;
+            animation3.AnimateOnlyDifferences = true;
+            animation3.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.BlindCoeff")));
+            animation3.LeafCoeff = 0F;
+            animation3.MaxTime = 1F;
+            animation3.MinTime = 0F;
+            animation3.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicCoeff")));
+            animation3.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation3.MosaicShift")));
+            animation3.MosaicSize = 0;
+            animation3.Padding = new System.Windows.Forms.Padding(0);
+            animation3.RotateCoeff = 0F;
+            animation3.RotateLimit = 0F;
+            animation3.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.ScaleCoeff")));
+            animation3.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation3.SlideCoeff")));
+            animation3.TimeCoeff = 0F;
+            animation3.TransparencyCoeff = 0F;
+            this.logoAnim.DefaultAnimation = animation3;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.Filter = " Scripts SQL (*.sql)|*.sql| Archivos de Texto (*.txt)|*.txt";
+            // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.Filter = "Script SQL |*.sql;";
+            // 
+            // printDocument1
+            // 
+            this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
             // containt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(246)))), ((int)(((byte)(246)))), ((int)(((byte)(246)))));
             this.ClientSize = new System.Drawing.Size(992, 577);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menu);
             this.Controls.Add(this.header);
             this.Controls.Add(this.panel4);
@@ -960,6 +1110,8 @@
             this.Name = "containt";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_Closing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.menu.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btnmenu)).EndInit();
@@ -973,21 +1125,27 @@
             this.panel4.ResumeLayout(false);
             this.bunifuGradientPanel1.ResumeLayout(false);
             this.bunifuGradientPanel1.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.tabpagSQL.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.txtSQL)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.toolStrip1.ResumeLayout(false);
-            this.toolStrip1.PerformLayout();
+            this.splitwork.Panel1.ResumeLayout(false);
+            this.splitwork.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitwork)).EndInit();
+            this.splitwork.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgResultados)).EndInit();
+            this.panel5.ResumeLayout(false);
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel1.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.toolSQL.ResumeLayout(false);
+            this.toolSQL.PerformLayout();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1023,28 +1181,43 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label lblResultados;
         private System.Windows.Forms.TabControl tabpagSQL;
-        private System.Windows.Forms.TabPage tabPage3;
-        private FastColoredTextBoxNS.FastColoredTextBox txtSQL;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton toolStripButton1;
-        private System.Windows.Forms.ToolStripButton toolStripButton2;
-        private System.Windows.Forms.ToolStripButton toolStripButton3;
-        private System.Windows.Forms.ToolStripButton toolStripButton4;
+        private System.Windows.Forms.ToolStrip toolSQL;
+        private System.Windows.Forms.ToolStripButton tltNuevo;
+        private System.Windows.Forms.ToolStripButton toolOpenSQL;
+        private System.Windows.Forms.ToolStripButton toolSaveSql;
+        private System.Windows.Forms.ToolStripButton toolSaveAsSql;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton toolStripButton5;
-        private System.Windows.Forms.ToolStripButton toolStripButton6;
-        private System.Windows.Forms.ToolStripButton toolStripButton7;
+        private System.Windows.Forms.ToolStripButton toolCopy;
+        private System.Windows.Forms.ToolStripButton toolCut;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripButton toolStripButton8;
-        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TreeView trFunciones;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TreeView trvSintaxis;
         private System.Windows.Forms.Label lblsubtitulo;
         private System.Windows.Forms.TreeView trvvarios;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.ToolStripButton toolPrintSql;
+        private System.Windows.Forms.ToolStripButton toolPaste;
+        private System.Windows.Forms.ToolStripButton toolPlay;
+        private System.Windows.Forms.ToolStripProgressBar toolProBar;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel AboutLabel;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
+        public System.Windows.Forms.ToolStripStatusLabel FilenameToolStripLabel;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+        public System.Windows.Forms.ToolStripStatusLabel LineToolStripLabel;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
+        public System.Windows.Forms.ToolStripStatusLabel ColumnToolStripLabel;
+        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.SplitContainer splitwork;
+        private System.Windows.Forms.DataGridView dtgResultados;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
